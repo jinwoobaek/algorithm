@@ -5,6 +5,7 @@ import java.util.TreeSet;
 
 /**
  * level 1 - 두 개 뽑아서 더하기
+ * 월간 코드 챌린지 시즌1
  * 2021.03.31
  * 실패
 **/

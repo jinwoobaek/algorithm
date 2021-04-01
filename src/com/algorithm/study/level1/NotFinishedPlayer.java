@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 /**
  * level 1 - 완주하지 못한 선수
+ * 해시
  * 2021.03.31
  * 실패
  **/

@@ -2,6 +2,7 @@ package com.algorithm.study.level1;
 
 /**
  * level 1 - 정수 제곱근 판별
+ * 연습문제
  * 2021.03.31
  * 성공
  **/
