@@ -5,18 +5,13 @@ public class Main {
     public static void main(String[] args) {
         // write your code here
 
-        ClawMachine cm = new ClawMachine();
+        GymSuit gs = new GymSuit();
 
-        int[][] board = {
-                {0, 0, 0, 0, 0},
-                {0, 0, 1, 0, 3},
-                {0, 2, 5, 0, 1},
-                {4, 2, 4, 4, 2},
-                {3, 5, 1, 3, 1}
-        };
-        int[] moves = {1, 5, 3, 5, 1, 2, 1, 4};
+        int n = 5;
+        int[] lost = {2, 4};
+        int[] reserve = {1, 3, 5};
 
-        cm.solution(board, moves);
+        gs.solution(n, lost, reserve);
     }
 }
 
