@@ -12,7 +12,7 @@ public class ClawMachine {
         for (int i : moves) {
             for (int row = 0; row < board.length; row++) {
                 if (board[row][i - 1] != 0) {
-                    if (temp.size() > 0 && temp.get(temp.size() - 1).equals(board[row][i - 1])) {
+                    if (!temp.isEmpty() && temp.get(temp.size() - 1).equals(board[row][i - 1])) {
                         temp.remove(temp.size() - 1);
                         board[row][i - 1] = 0;
                         answer += 2;
