@@ -3,6 +3,11 @@ package com.algorithm.study.level1;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * level 1 - 크레인 인형뽑기 게임
+ * 2021.04.01
+ * 성공
+ **/
 public class ClawMachine {
     public int solution(int[][] board, int[] moves) {
         int answer = 0;

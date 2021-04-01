@@ -3,6 +3,11 @@ package com.algorithm.study.level1;
 import java.util.Set;
 import java.util.TreeSet;
 
+/**
+ * level 1 - 두 개 뽑아서 더하기
+ * 2021.03.31
+ * 실패
+**/
 public class SumTwoNumber {
     public int[] solution(int[] numbers) {
         Set<Integer> treeSet = new TreeSet<>();

@@ -2,6 +2,11 @@ package com.algorithm.study.level1;
 
 import java.util.Arrays;
 
+/**
+ * level 1 - 완주하지 못한 선수
+ * 2021.03.31
+ * 실패
+ **/
 public class NotFinishedPlayer {
     public String solution(String[] participant, String[] completion) {
         String answer = "";
