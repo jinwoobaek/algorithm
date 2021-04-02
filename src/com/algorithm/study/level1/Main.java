@@ -7,9 +7,9 @@ public class Main {
 
         GymSuit gs = new GymSuit();
 
-        int n = 5;
-        int[] lost = {2, 4};
-        int[] reserve = {1, 3, 5};
+        int n = 3;
+        int[] lost = {1, 2};
+        int[] reserve = {2, 3};
 
         gs.solution(n, lost, reserve);
     }
