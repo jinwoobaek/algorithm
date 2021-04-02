@@ -5,13 +5,11 @@ public class Main {
     public static void main(String[] args) {
         // write your code here
 
-        GymSuit gs = new GymSuit();
+        ReverseBase3 rb3 = new ReverseBase3();
 
-        int n = 3;
-        int[] lost = {1, 2};
-        int[] reserve = {2, 3};
+        int n = 45;
 
-        gs.solution(n, lost, reserve);
+        rb3.solution(n);
     }
 }
 
