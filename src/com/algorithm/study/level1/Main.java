@@ -5,11 +5,11 @@ public class Main {
     public static void main(String[] args) {
         // write your code here
 
-        ReverseBase3 rb3 = new ReverseBase3();
+        RecommendNewID rni = new RecommendNewID();
 
-        int n = 45;
+        String id = "...!@BaT#*..y.abcdefghijklm";
 
-        rb3.solution(n);
+        rni.solution(id);
     }
 }
 
