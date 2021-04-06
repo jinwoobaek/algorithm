@@ -5,11 +5,13 @@ public class Main {
     public static void main(String[] args) {
         // write your code here
 
-        RecommendNewID rni = new RecommendNewID();
+        SecretMap sm = new SecretMap();
 
-        String id = "...!@BaT#*..y.abcdefghijklm";
+        int n = 5;
+        int[] arr1 = {9, 20, 28, 18, 11};
+        int[] arr2 = {30, 1, 21, 17, 28};
 
-        rni.solution(id);
+        sm.solution(n, arr1, arr2);
     }
 }
 

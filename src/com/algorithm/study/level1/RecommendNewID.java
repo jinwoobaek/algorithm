@@ -42,7 +42,19 @@ public class RecommendNewID {
 
         System.out.println(answer);
 
-        //bat.y.abcdefghi
+//        [ 수요일 예정 ]
+//        골렘 (후보)
+//        스팀 (후보)
+//        네오 (후보)
+//        코모도 (후보)
+//        넴 (후보)
+//        리플 (후보)
+//        퀀텀 (후보)
+
+
+//        리스트 (추가) 10 @@@@ (4/4 추랍ㄹ 느낌)
+        // 50 , 120
+
         return answer;
     }
 }
