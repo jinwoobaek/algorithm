@@ -1,4 +1,4 @@
-package com.algorithm.study.level1;
+package com.algorithm.study.programmers.level1;
 
 /**
  * level 1 - 신규 아이디 추천

@@ -1,4 +1,6 @@
-package com.algorithm.study.level1;
+package com.algorithm.study;
+
+import com.algorithm.study.programmers.level1.SecretMap;
 
 public class Main {
 
@@ -12,6 +14,7 @@ public class Main {
         int[] arr2 = {30, 1, 21, 17, 28};
 
         sm.solution(n, arr1, arr2);
+        System.out.println("ㅎㅇ");
     }
 }
 

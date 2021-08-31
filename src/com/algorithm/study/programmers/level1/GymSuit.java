@@ -1,4 +1,4 @@
-package com.algorithm.study.level1;
+package com.algorithm.study.programmers.level1;
 
 import java.util.ArrayList;
 import java.util.Arrays;
