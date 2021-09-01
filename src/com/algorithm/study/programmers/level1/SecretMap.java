@@ -46,4 +46,18 @@ public class SecretMap {
         String[] answer = resultList.toArray(new String[resultList.size()]);
         return answer;
     }
+
+    public static void main(String[] args) {
+        // write your code here
+
+        SecretMap sm = new SecretMap();
+
+        int n = 5;
+        int[] arr1 = {9, 20, 28, 18, 11};
+        int[] arr2 = {30, 1, 21, 17, 28};
+
+        sm.solution(n, arr1, arr2);
+        System.out.println(sm.solution(n, arr1, arr2));
+    }
 }
+
