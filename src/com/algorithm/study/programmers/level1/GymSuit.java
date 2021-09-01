@@ -8,40 +8,22 @@ import java.util.stream.Collectors;
 /**
  * level 1 - 체육복
  * 탐욕법
- * 2021.04.02
- * 성공
+ * 2021.04.02 - 성공
+ * 2021.09.01 -
  **/
 public class GymSuit {
     public int solution(int n, int[] lost, int[] reserve) {
-        List<Integer> lostList = Arrays.stream(lost).boxed().collect(Collectors.toList());
-        List<Integer> reserveList = Arrays.stream(reserve).boxed().collect(Collectors.toList());
 
-        for (int value : new ArrayList<>(lostList)) {
-            if (reserveList.contains(value)) {
-                lostList.remove(lostList.indexOf(value));
-                reserveList.remove(reserveList.indexOf(value));
-            }
-        }
+        return 1;
+    }
 
-        int[] scaleLost = new int[lostList.size()];
+    public static void main(String[] args) {
+        GymSuit solution = new GymSuit();
 
-        for (int i = 0; i < scaleLost.length; i++) {
-            scaleLost[i] = lostList.get(i);
-        }
+        int n = 5;
+        int[] lost = {2, 4};
+        int[] reserve = {1, 3, 5};
 
-        for (int value : scaleLost) {
-
-            if (reserveList.contains(value - 1)) {
-                lostList.remove(lostList.indexOf(value));
-                reserveList.remove(reserveList.indexOf(value - 1));
-                continue;
-            }
-
-            if (reserveList.contains(value + 1)) {
-                lostList.remove(lostList.indexOf(value));
-                reserveList.remove(reserveList.indexOf(value + 1));
-            }
-        }
-        return n - lostList.size();
+        solution.solution(n, lost, reserve);
     }
 }
